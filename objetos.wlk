@@ -194,3 +194,9 @@ object cajita {
     return 400 + objetoAdentro.peso()
   }
 }
+
+object bici {
+  method peso() {return 100}
+  method color() {return verde}
+  method material() {return madera}
+}
